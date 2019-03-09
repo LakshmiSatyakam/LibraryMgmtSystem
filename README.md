@@ -30,24 +30,23 @@ Example requests:
 
 ==============================================================================================
 
-
 In-memory store data set:
 -------------------------
 
 1. Books:
 
-|---------------------------------------------------------------------------------------------|
-|	Id 	| Name			 						      |
-|---------------------------------------------------------------------------------------------|
-|	1	| Year 3 NAPLAN Literacy tests                                                |
-|	2	| The Girl who saved the king of sweden					      |
-|	3	| Hundred years of solitude						      |
-|	4	| Sophie's world							      |
-|	5	| The Phoenix project: A novel about IT, DevOps & Helping your business win   |
-|	6	| Matilda								      |
-|	7	| Tom Gates Epic							      |
-| 	8	| Dairy of Anne Frank							      |
-|---------------------------------------------------------------------------------------------|
+|-------------------------------------------------|
+|  Id 	| Name			 		  |
+|-------------------------------------------------|
+|  1	| Year 3 NAPLAN Literacy tests            |
+|  2	| The Girl who saved the king of sweden	  |
+|  3	| Hundred years of solitude		  |
+|  4	| Sophie's world			  |
+|  5	| The Phoenix project                     |
+|  6	| Matilda				  |
+|  7	| Tom Gates Epic			  |
+|  8	| Dairy of Anne Frank			  |
+|-------------------------------------------------|
 
 2. Students
 
@@ -76,7 +75,7 @@ In-memory store data set:
 |	5	| 1        |  4        | 23-02-2019 |
 |---------------------------------------------------|
 
-==============================================================================================
+=================================================================
 
 
 Design details:
@@ -87,4 +86,4 @@ Design details:
 3. Composite pattern is used in Controllers
 4. SOLID principles is adhered for the classes
 
-==============================================================================================
+===================================================================
