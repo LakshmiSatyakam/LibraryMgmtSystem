@@ -11,6 +11,8 @@ Instruction to build and run LibraryMgmtSystem APIs:
 6) Api will be hosted now, which opens a web browser
 7) Open any of API testing tools like Postman
 
+Note: If getting an error "could not find a part of the path bin roslyn csc.exe", please perform an update on the package "Microsoft.CodeDom.Providers.DotNetCompilerPlatform" in "Manage NuGet Packages for Solution".
+
 Example requests:
    Get all books: Select GET verb
 	a. http://localhost:49229/api/books/getall
